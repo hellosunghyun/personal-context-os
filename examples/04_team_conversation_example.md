@@ -1,6 +1,6 @@
 # 팀 대화 예시
 
-[← 이전](03_final_manual_excerpt.md) | [목차](../SUMMARY.md)
+[← 이전](03_final_manual_excerpt.md) | [목차](../SUMMARY.md) | [다음 →](05_active_context_example.md)
 
 ## 상황
 

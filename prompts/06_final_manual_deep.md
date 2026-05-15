@@ -20,6 +20,17 @@
 
 아래 프롬프트를 복사한 뒤, `생성할 파트`와 `출력 파일명`을 하나만 지정합니다.
 
+파트가 헷갈리면 아래 분리 프롬프트를 바로 사용해도 됩니다.
+
+```text
+06a_build_identity_values.md
+06b_build_work_communication.md
+06c_build_llm_risks_growth.md
+06d_build_active_context.md
+06e_build_team_share.md
+06f_build_public_profile.md
+```
+
 권장 순서:
 
 ```text

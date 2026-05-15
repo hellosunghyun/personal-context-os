@@ -65,10 +65,21 @@ ChatGPT Project로 진행한다면 파일 이름에 `draft_`를 붙여 구분합
 ## 실행 방법
 
 1. ChatGPT에 위 파일들을 첨부합니다.
-2. [prompts/06_final_manual_deep.md](../prompts/06_final_manual_deep.md)를 붙여넣습니다.
+2. [prompts/06_final_manual_deep.md](../prompts/06_final_manual_deep.md)를 기준으로 보거나, 아래 파트별 프롬프트 중 하나를 붙여넣습니다.
 3. 한 번에 전체 문서를 만들지 말고, 아래 파트 중 하나만 선택해 생성합니다.
 4. 근거가 약한 내용은 `추가 확인 필요` 또는 `평가 불가`로 남기게 합니다.
 5. 각 결과를 `outputs/drafts/`에 저장합니다.
+
+파트별 프롬프트:
+
+```text
+prompts/06a_build_identity_values.md
+prompts/06b_build_work_communication.md
+prompts/06c_build_llm_risks_growth.md
+prompts/06d_build_active_context.md
+prompts/06e_build_team_share.md
+prompts/06f_build_public_profile.md
+```
 
 권장 생성 순서:
 

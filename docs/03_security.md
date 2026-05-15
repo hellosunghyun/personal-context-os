@@ -91,6 +91,21 @@ API Key
 
 ---
 
+## 실수로 민감 자료를 올렸다면
+
+이미 민감한 파일이나 원문을 ChatGPT, Project, 다른 LLM 도구에 올렸다면 아래 순서로 정리합니다.
+
+1. 해당 채팅이나 Project에서 파일을 삭제합니다.
+2. [templates/source_register.md](../templates/source_register.md)에 삭제 여부와 날짜를 남깁니다.
+3. 원문 대신 가명화한 요약본을 새로 작성합니다.
+4. 사람 이름, 회사명, 고객명, 고유 숫자, 날짜, 내부 프로젝트명을 제거합니다.
+5. 이미 만든 `full_manual.md`, `active_context.md`, `team_share_one_pager.md`에 흔적이 남았는지 확인합니다.
+6. 남아 있다면 [prompts/07_authorship_review.md](../prompts/07_authorship_review.md)로 민감 정보 흔적을 다시 검사합니다.
+
+삭제했다고 해서 도구 제공자의 보관 정책까지 통제할 수 있는 것은 아닙니다. 그래서 민감한 원문은 처음부터 올리지 않는 쪽이 가장 안전합니다.
+
+---
+
 ## 공개 범위 표시법
 
 모든 답변 옆에 공개 범위를 표시하세요.
