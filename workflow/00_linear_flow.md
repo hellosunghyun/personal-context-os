@@ -1,6 +1,6 @@
 # 일직선 실행 흐름
 
-[← 이전](../docs/09_gpts_and_bots.md) | [목차](../SUMMARY.md) | [다음 →](01_setup_workspace.md)
+[← 이전](../START_HERE.md) | [목차](../SUMMARY.md) | [다음 →](01_setup_workspace.md)
 
 ## 이 페이지에서 알게 되는 것
 
@@ -8,9 +8,9 @@
 
 ---
 
-## 필수 흐름
+## 첫 생성 흐름
 
-아래 순서대로 진행하세요.
+처음에는 아래 순서만 진행하세요.
 
 ```text
 1. 작업 공간 만들기
@@ -19,9 +19,9 @@
 4. 1차 인터뷰 진행하기
 5. 추가 질문 생성하기
 6. 2차 인터뷰 진행하기
-7. 최종 사용 설명서 만들기
-8. 검수하고 버전 나누기
-9. 업데이트 시스템 만들기
+7. 파트별 최종 문서 초안 만들기
+8. 초안을 합치고 검수하기
+9. 첫 생성 완료 상태 확인하기
 ```
 
 중요합니다.  
@@ -31,13 +31,19 @@
 
 ## 선택사항은 어디에 있나요?
 
-진짜 선택사항은 아래뿐입니다.
+진행 중에 선택할 것은 아래입니다.
 
 ```text
 음성으로 할지 텍스트로 할지
 ChatGPT Project를 쓸지 일반 채팅을 쓸지
+```
+
+처음 생성이 끝난 뒤에 판단해도 되는 것은 아래입니다.
+
+```text
 GPTs나 챗봇으로 확장할지
 팀원에게 공유할지
+월간 업데이트 루틴을 운영할지
 ```
 
 하지만 핵심 흐름 자체는 바꾸지 않는 것을 권장합니다.
@@ -54,9 +60,11 @@ GPTs나 챗봇으로 확장할지
 | 4. 1차 인터뷰 | 02_round1_summary.md |
 | 5. 추가 질문 | 03_followup_questions.md |
 | 6. 2차 인터뷰 | 04_round2_summary.md |
-| 7. 최종 문서 | full_manual.md, active_context.md 등 |
-| 8. 검수/분리 | 본인용, 팀원용, 공개용 |
-| 9. 업데이트 | update_plan.md, answer_taste_log.md |
+| 7. 파트별 초안 | outputs/drafts/*.md |
+| 8. 합치기/검수 | 05_full_manual.md, 06_active_context.md, 07_team_share_one_pager.md |
+| 9. 완료 확인 | FINISH.md |
+
+공개용이 필요할 때만 `08_public_profile.md`를 만듭니다. 완성 후 운영을 시작할 때만 `09_update_plan.md`, `answer_taste_log.md`, `event_update_log.md`를 만듭니다.
 
 ---
 

@@ -1,6 +1,6 @@
 # 최소 실행 예시
 
-[← 이전](../templates/event_update_log.md) | [목차](../SUMMARY.md) | [다음 →](01_text_mode_example.md)
+[목차](../SUMMARY.md) | [다음 →](01_text_mode_example.md)
 
 ## 상황
 

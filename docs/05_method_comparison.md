@@ -4,7 +4,7 @@
 
 ## 이 페이지에서 알게 되는 것
 
-이 가이드가 persona prompting, custom instructions, context engineering, RAG, GPTs, Hermes류 에이전트와 어떻게 다른지 설명합니다.
+이 가이드가 persona prompting, custom instructions, context engineering, RAG, GPTs, 개인 에이전트 흐름과 어떻게 다른지 설명합니다.
 
 ---
 
@@ -97,9 +97,9 @@ GPTs = 그 맥락을 반복적으로 쓰는 인터페이스
 
 ---
 
-## Hermes류 개인 에이전트와의 차이
+## 개인 에이전트 흐름과의 차이
 
-Hermes류 개인 에이전트 흐름은 장기 기억, 스킬, 자동화, 자기 개선 루프를 강조합니다.
+일부 개인 에이전트 흐름은 장기 기억, 스킬, 자동화, 자기 개선 루프를 강조합니다.
 
 이 가이드는 그보다 작고 안전한 출발점입니다.
 

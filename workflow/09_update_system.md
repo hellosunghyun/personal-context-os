@@ -1,14 +1,16 @@
-# 9단계. 업데이트 시스템 만들기
+# 완성 후. 업데이트 시스템 운영하기
 
-[← 이전](08_review_and_split.md) | [목차](../SUMMARY.md) | [다음 →](../questions/00_how_to_use_questions.md)
+[← 이전](../FINISH.md) | [목차](../SUMMARY.md) | [다음 →](../tests/manual_quality_test.md)
 
-## 이 페이지에서 지금 할 일
+## 완성 후 운영할 때 할 일
 
 한 번 만든 사용 설명서를 오래 쓰기 위해 업데이트 방식을 정합니다.
 
+처음 사용 설명서를 만드는 중이라면 이 문서는 건너뛰어도 됩니다. `outputs/05_full_manual.md`와 `outputs/06_active_context.md`가 생긴 뒤에 다시 봐도 늦지 않습니다.
+
 ---
 
-## 왜 지금 이걸 하나요?
+## 왜 나중에 이걸 하나요?
 
 사람은 변합니다. 문서를 만들고 끝내면 금방 낡습니다. 하지만 매번 전체를 다시 쓰면 부담이 큽니다.
 
@@ -86,14 +88,14 @@ GPT 답변이 매우 좋았거나 매우 나빴던 경우
 
 ```text
 outputs/09_update_plan.md
-templates/answer_taste_log.md 기반 개인 로그
-templates/event_update_log.md 기반 사건 로그
+outputs/answer_taste_log.md
+outputs/event_update_log.md
 ```
 
 ---
 
 ## 다음 행동
 
-이제 100문 100답 질문 사용법을 읽고 실제 질문에 답할 수 있습니다.
+완성된 문서가 실제 답변 품질을 바꾸는지 확인합니다.
 
-다음: [질문 사용법](../questions/00_how_to_use_questions.md)
+다음: [품질 테스트 질문](../tests/manual_quality_test.md)

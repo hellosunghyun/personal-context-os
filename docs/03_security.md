@@ -107,6 +107,8 @@ API Key
 
 ## 다음 행동
 
-보안 기준을 정했다면 필수 실행 흐름으로 넘어갑니다.
+개념 문서를 계속 읽으려면 다음 문서로 갑니다. 바로 만들기 시작하려면 필수 실행 흐름으로 넘어갑니다.
 
-다음: [workflow/00_linear_flow.md](../workflow/00_linear_flow.md)
+계속 읽기: [MBTI로 대체할 수 없는 이유](04_why_not_mbti.md)
+
+실행하기: [일직선 실행 흐름](../workflow/00_linear_flow.md)

@@ -1,6 +1,6 @@
 # 참고 링크
 
-[← 이전](tests/manual_quality_test.md) | [목차](SUMMARY.md) | [다음 →](LICENSE.md)
+[목차](SUMMARY.md)
 
 이 레포는 제품 기능의 세부 정책을 보장하지 않습니다. ChatGPT 기능, 모델, 요금제, 파일 업로드, 메모리, GPTs 관련 세부 내용은 공식 문서를 확인하세요.
 
@@ -13,6 +13,7 @@
 - GPTs in ChatGPT: https://help.openai.com/en/articles/8554407-gpts-in-chatgpt
 - Creating and editing GPTs: https://help.openai.com/en/articles/8554397-creating-and-editing-gpts
 - Prompt Engineering Guide: https://developers.openai.com/api/docs/guides/prompt-engineering
+- Evaluation Best Practices: https://developers.openai.com/api/docs/guides/evaluation-best-practices
 
 ## 관련 개념
 

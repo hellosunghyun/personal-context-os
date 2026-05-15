@@ -1,6 +1,6 @@
 # event_update_log.md
 
-[← 이전](answer_taste_log.md) | [목차](../SUMMARY.md) | [다음 →](../examples/00_minimal_run.md)
+[← 이전](answer_taste_log.md) | [목차](../SUMMARY.md)
 
 큰 사건 직후 맥락을 기록하는 파일입니다.
 

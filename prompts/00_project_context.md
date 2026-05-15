@@ -1,6 +1,6 @@
 # 프롬프트 00. 프로젝트 기본 맥락
 
-[← 이전](../questions/10_future_manual.md) | [목차](../SUMMARY.md) | [다음 →](01_material_intake.md)
+[목차](../SUMMARY.md) | [다음 →](01_material_intake.md)
 
 ## 언제 쓰나요?
 

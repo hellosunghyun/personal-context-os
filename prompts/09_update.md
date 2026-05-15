@@ -1,10 +1,10 @@
-# 프롬프트 09. 업데이트
+# 프롬프트 09. 완성 후 업데이트
 
-[← 이전](08_split_versions.md) | [목차](../SUMMARY.md) | [다음 →](../templates/source_register.md)
+[← 이전](08_split_versions.md) | [목차](../SUMMARY.md)
 
 ## 언제 쓰나요?
 
-사용 설명서를 만든 뒤 월간 업데이트, 사건 기반 업데이트, active_context 압축에 사용합니다.
+사용 설명서를 만든 뒤 월간 업데이트, 사건 기반 업데이트, active_context 압축에 사용합니다. 첫 생성 중에는 사용하지 않아도 됩니다.
 
 ## 필요한 입력
 

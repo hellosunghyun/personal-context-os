@@ -22,6 +22,7 @@
 my-personal-context-os/
   inputs/
   outputs/
+  outputs/drafts/
   archive/
 ```
 
@@ -33,6 +34,9 @@ inputs/
 
 outputs/
 - 답변 기록, 인터뷰 요약, 최종 사용 설명서
+
+outputs/drafts/
+- 최종 문서로 합치기 전의 파트별 초안
 
 archive/
 - 과거에는 맞았지만 지금은 덜 맞는 내용
@@ -51,17 +55,28 @@ Personal Context OS
 나의 사용 설명서
 ```
 
-Project 안에 아래 파일을 업로드하거나 생성합니다.
+Project 안에는 처음부터 모든 결과물을 만들지 않습니다. 지금은 작업 기준과 첫 기록 파일만 준비합니다.
 
 ```text
 source_register.md
 01_answer_log.md
+```
+
+아래 파일들은 나중에 각 단계가 끝날 때 생성합니다.
+
+```text
 02_round1_summary.md
 03_followup_questions.md
 04_round2_summary.md
+outputs/drafts/*.md
+05_full_manual.md
+06_active_context.md
+07_team_share_one_pager.md
 ```
 
-Project를 쓰면 같은 작업의 채팅과 파일을 한곳에 모아둘 수 있습니다. 다만 민감한 자료를 넣기 전에는 보안 기준을 먼저 확인하세요.
+Project를 쓰면 같은 작업의 채팅과 파일을 한곳에 모아둘 수 있습니다. 다만 제품 기능, 파일 개수 제한, 메모리 방식은 계속 바뀔 수 있습니다. 이 가이드는 특정 기능을 전제로 하기보다, 파일 이름과 공개 범위를 분명히 남기는 방식을 우선합니다.
+
+민감한 자료를 넣기 전에는 보안 기준을 먼저 확인하세요. 원문을 그대로 올릴지, 요약본만 올릴지, 아예 올리지 않을지를 `source_register.md`에 표시합니다.
 
 ---
 

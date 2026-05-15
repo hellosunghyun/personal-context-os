@@ -1,6 +1,6 @@
 # 100문 100답 사용법
 
-[← 이전](../workflow/09_update_system.md) | [목차](../SUMMARY.md) | [다음 →](01_identity.md)
+[← 이전](../workflow/03_answer_100_questions.md) | [목차](../SUMMARY.md) | [다음 →](01_identity.md)
 
 ## 이 페이지에서 지금 할 일
 

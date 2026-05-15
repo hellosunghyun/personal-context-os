@@ -8,7 +8,7 @@
 
 ## 이 가이드로 무엇을 만들게 되나요?
 
-최종적으로는 나에 대한 세 가지 문서를 만듭니다.
+첫 번째 목표는 나에 대한 세 가지 핵심 문서를 만드는 것입니다.
 
 ```text
 1. full_manual.md
@@ -21,7 +21,11 @@
    팀원이나 가까운 협업자에게 공유할 수 있는 1페이지 요약.
 ```
 
-처음부터 완벽한 문서를 만들 필요는 없습니다. 먼저 원재료를 모읍니다.
+처음부터 완벽한 문서를 만들 필요는 없습니다. 먼저 원재료를 모으고, 그다음 파트별로 초안을 만든 뒤 합칩니다.
+
+`public_profile.md`, `update_plan.md`, GPTs/챗봇 확장, 월간 업데이트는 **완성 후에 필요할 때** 다룹니다.
+
+이 가이드는 최신 기능을 모두 쓰는 법이 아니라, 지금 쓰고 있는 수동 맥락 정리 방식을 문서화한 것입니다. 기능이 바뀌어도 원자료, 근거, 공개 범위, 저자성 검수는 남아야 합니다.
 
 ---
 
@@ -56,9 +60,26 @@
 4. [workflow/04_round1_interview.md](workflow/04_round1_interview.md) 1차 인터뷰 진행하기
 5. [workflow/05_generate_followups.md](workflow/05_generate_followups.md) 추가 질문 만들기
 6. [workflow/06_round2_interview.md](workflow/06_round2_interview.md) 2차 인터뷰 진행하기
-7. [workflow/07_build_manual.md](workflow/07_build_manual.md) 최종 사용 설명서 만들기
-8. [workflow/08_review_and_split.md](workflow/08_review_and_split.md) 검수하고 버전 나누기
-9. [workflow/09_update_system.md](workflow/09_update_system.md) 업데이트 체계 만들기
+7. [workflow/07_build_manual.md](workflow/07_build_manual.md) 파트별 최종 문서 초안 만들기
+8. [workflow/08_review_and_split.md](workflow/08_review_and_split.md) 초안을 합치고 검수하기
+9. [FINISH.md](FINISH.md)에서 첫 생성 완료 상태 확인하기
+
+완성 후 계속 운영할 때만 [workflow/09_update_system.md](workflow/09_update_system.md)를 봅니다.
+
+---
+
+## 지금 하지 않아도 되는 것
+
+아래는 처음 실행할 때 바로 하지 않아도 됩니다.
+
+```text
+GPTs나 개인 챗봇 만들기
+팀원에게 공유하기
+월간 업데이트 루틴 만들기
+분기별 품질 테스트 하기
+```
+
+이 항목들은 사용 설명서 초안이 나온 뒤에 판단해도 늦지 않습니다.
 
 ---
 
@@ -78,7 +99,7 @@
 - 말하면서 생각이 정리되는 편이다.
 ```
 
-이 가이드에서는 모든 단계마다 **텍스트 방식**과 **음성 방식**을 모두 안내합니다.
+이 가이드에서는 대화가 필요한 단계마다 **텍스트 방식**과 **음성 방식**을 함께 안내합니다.
 
 ---
 
@@ -89,6 +110,7 @@ GPT 답변이 마음에 든다고 바로 쓰지 않는다.
 내가 요청할 때 얼핏 상상했던 방향과 맞는지 확인한다.
 너무 멋있지만 내 말처럼 느껴지지 않으면 낮춘다.
 좋은 답변이 아니라 내 것이 되는 답변을 남긴다.
+정확히 평가하기 어렵다면 좋은 예시와 나쁜 예시만이라도 남긴다.
 ```
 
 다음 문서: [workflow/00_linear_flow.md](workflow/00_linear_flow.md)

@@ -9,10 +9,11 @@
 
 - [START_HERE.md](START_HERE.md)
 - [workflow/00_linear_flow.md](workflow/00_linear_flow.md)
+- [첫 생성 완료](FINISH.md)
 
 ---
 
-## 1. 필수 실행 흐름
+## 1. 첫 생성 흐름
 
 1. [작업 공간 만들기](workflow/01_setup_workspace.md)
 2. [선택 자료 모으기](workflow/02_collect_context.md)
@@ -20,13 +21,22 @@
 4. [1차 인터뷰 진행하기](workflow/04_round1_interview.md)
 5. [추가 질문 생성하기](workflow/05_generate_followups.md)
 6. [2차 인터뷰 진행하기](workflow/06_round2_interview.md)
-7. [최종 사용 설명서 만들기](workflow/07_build_manual.md)
-8. [검수하고 버전 나누기](workflow/08_review_and_split.md)
-9. [업데이트 시스템 만들기](workflow/09_update_system.md)
+7. [파트별 최종 문서 초안 만들기](workflow/07_build_manual.md)
+8. [초안을 합치고 검수하기](workflow/08_review_and_split.md)
+9. [첫 생성 완료 상태 확인](FINISH.md)
 
 ---
 
-## 2. 100문 100답
+## 2. 완성 후 운영과 확장
+
+- [업데이트 시스템 운영하기](workflow/09_update_system.md)
+- [팀원과 공유하기](docs/08_team_sharing.md)
+- [GPTs와 챗봇으로 확장하기](docs/09_gpts_and_bots.md)
+- [품질 테스트 질문](tests/manual_quality_test.md)
+
+---
+
+## 3. 100문 100답
 
 - [질문 사용법](questions/00_how_to_use_questions.md)
 - [01. 현재의 나](questions/01_identity.md)
@@ -42,7 +52,7 @@
 
 ---
 
-## 3. 바로 복사해서 쓰는 프롬프트
+## 4. 바로 복사해서 쓰는 프롬프트
 
 - [00. 프로젝트 기본 맥락](prompts/00_project_context.md)
 - [01. 자료 분류](prompts/01_material_intake.md)
@@ -50,14 +60,15 @@
 - [03. 1차 인터뷰](prompts/03_round1_interview.md)
 - [04. 추가 질문 생성](prompts/04_generate_followups.md)
 - [05. 2차 인터뷰](prompts/05_round2_interview.md)
-- [06. 최종 사용 설명서 생성](prompts/06_final_manual_deep.md)
+- [06. 파트별 최종 문서 초안 생성](prompts/06_final_manual_deep.md)
+- [06B. 파트 초안 합치기](prompts/06_merge_manual_outputs.md)
 - [07. 저자성 검수](prompts/07_authorship_review.md)
 - [08. 버전 분리](prompts/08_split_versions.md)
 - [09. 업데이트](prompts/09_update.md)
 
 ---
 
-## 4. 템플릿
+## 5. 템플릿
 
 - [자료 목록](templates/source_register.md)
 - [100문 100답 기록지](templates/answer_log.md)
@@ -69,7 +80,7 @@
 
 ---
 
-## 5. 개념과 주의사항
+## 6. 개념과 주의사항
 
 - [이 가이드는 무엇인가](docs/00_what_is_this.md)
 - [왜 맥락이 중요한가](docs/01_why_context_matters.md)
@@ -79,12 +90,12 @@
 - [다른 방법론과의 차이](docs/05_method_comparison.md)
 - [사용 예시](docs/06_use_cases.md)
 - [단점과 트레이드오프](docs/07_limitations.md)
-- [팀원과 공유하기](docs/08_team_sharing.md)
-- [GPTs와 챗봇으로 확장하기](docs/09_gpts_and_bots.md)
+- [팀원과 공유하기](docs/08_team_sharing.md) - 완성 후 선택
+- [GPTs와 챗봇으로 확장하기](docs/09_gpts_and_bots.md) - 완성 후 선택
 
 ---
 
-## 6. 예시와 테스트
+## 7. 예시와 테스트
 
 - [최소 예시](examples/00_minimal_run.md)
 - [텍스트 진행 예시](examples/01_text_mode_example.md)
@@ -95,7 +106,7 @@
 
 ---
 
-## 7. 참고
+## 8. 참고
 
 - [references.md](references.md)
 - [LICENSE.md](LICENSE.md)

@@ -1,10 +1,10 @@
-# 8단계. 검수하고 버전 나누기
+# 8단계. 초안을 합치고 검수하기
 
-[← 이전](07_build_manual.md) | [목차](../SUMMARY.md) | [다음 →](09_update_system.md)
+[← 이전](07_build_manual.md) | [목차](../SUMMARY.md) | [다음 →](../FINISH.md)
 
 ## 이 페이지에서 지금 할 일
 
-최종 문서가 실제로 내 것인지 확인하고, 본인용/팀원용/공개용으로 나눕니다.
+파트별 초안을 최종 파일로 합치고, 실제로 내 것인지 확인한 뒤 본인용/팀원용/공개용 버전을 정리합니다.
 
 ---
 
@@ -26,16 +26,42 @@ GPT 답변이 마음에 들어도 바로 쓰면 안 됩니다.
 내가 말하지 않은 경험이나 동기가 들어갔는가?
 불편하거나 과한 심리 해석은 없는가?
 팀원에게 공유하면 오해될 부분은 없는가?
+근거 ID 없이 단정한 문장이 있는가?
+평가할 수 없는 내용을 평가한 것처럼 썼는가?
 ```
 
 ---
 
-## 진행 방법
+## 1. 파트 초안 합치기
+
+1. `outputs/drafts/`의 초안 파일을 모두 첨부합니다.
+2. [prompts/06_merge_manual_outputs.md](../prompts/06_merge_manual_outputs.md)를 사용합니다.
+3. 근거 ID, 충돌, 평가 불가 항목이 사라지지 않게 합칩니다.
+4. 아래 최종 파일로 합칩니다.
+
+```text
+outputs/05_full_manual.md
+outputs/06_active_context.md
+outputs/07_team_share_one_pager.md
+outputs/08_public_profile.md (필요할 때만)
+```
+
+---
+
+## 2. 저자성 검수
 
 1. `outputs/05_full_manual.md`를 ChatGPT에 첨부합니다.
 2. [prompts/07_authorship_review.md](../prompts/07_authorship_review.md)를 사용합니다.
-3. 수정된 결과를 다시 저장합니다.
-4. [prompts/08_split_versions.md](../prompts/08_split_versions.md)를 사용해 버전을 나눕니다.
+3. 내 말 같지 않은 문장, 근거가 약한 해석, 공개 범위가 섞인 부분을 수정합니다.
+
+---
+
+## 3. 버전 분리 확인
+
+1. [prompts/08_split_versions.md](../prompts/08_split_versions.md)를 사용합니다.
+2. 팀원용에서 민감한 내용이 제거됐는지 확인합니다.
+3. 공개용을 만들었다면 공개 가능한 내용만 남았는지 확인합니다.
+4. 수정된 결과를 다시 저장합니다.
 
 ---
 
@@ -61,14 +87,15 @@ GPT 답변이 마음에 들어도 바로 쓰면 안 됩니다.
 
 ```text
 outputs/05_full_manual.md 수정본
+outputs/06_active_context.md 수정본
 outputs/07_team_share_one_pager.md 수정본
-outputs/08_public_profile.md 수정본
+outputs/08_public_profile.md 수정본 (공개용을 만들었을 때만)
 ```
 
 ---
 
 ## 다음 행동
 
-문서를 계속 업데이트할 수 있는 시스템을 만듭니다.
+마지막으로 완료 페이지에서 결과물이 사용 가능한 상태인지 확인합니다.
 
-다음: [업데이트 시스템 만들기](09_update_system.md)
+다음: [첫 생성 완료](../FINISH.md)
