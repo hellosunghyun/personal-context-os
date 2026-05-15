@@ -2,7 +2,7 @@
 
 [← 이전](06d_build_active_context.md) | [목차](../SUMMARY.md) | [다음 →](06f_build_public_profile.md)
 
-`outputs/drafts/07a_team_share_one_pager.md`만 만들 때 사용합니다.
+팀원용 1페이지 초안만 만들 때 사용합니다.
 
 ```text
 아래 자료를 바탕으로 팀원이나 협업자에게 공유 가능한 1페이지 요약을 만들어줘.
@@ -30,7 +30,7 @@ outputs/drafts/07a_team_share_one_pager.md
 - 진단처럼 보이는 표현
 
 입력 자료:
-[full_manual 초안, active_context 초안, source_register.md를 붙여넣거나 첨부]
+[전체 사용 설명서 초안, Active Context 초안, 자료 목록을 붙여넣거나 첨부]
 
 마지막에 아래를 붙인다.
 

@@ -1,4 +1,4 @@
-# event_update_log.md
+# 사건 기반 업데이트 로그
 
 [← 이전](answer_taste_log.md) | [목차](../SUMMARY.md)
 

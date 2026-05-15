@@ -80,4 +80,4 @@
 
 ## 다음으로
 
-다음 파일로 이동합니다: [02_life_story.md](02_life_story.md)
+다음으로 이동합니다: [삶의 과정 질문](02_life_story.md)

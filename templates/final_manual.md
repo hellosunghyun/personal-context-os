@@ -1,4 +1,4 @@
-# full_manual.md
+# 전체 사용 설명서
 
 [← 이전](interview_summary.md) | [목차](../SUMMARY.md) | [다음 →](active_context.md)
 

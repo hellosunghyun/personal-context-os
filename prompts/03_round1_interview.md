@@ -8,11 +8,11 @@
 
 ## 넣을 자료
 
-`outputs/01_answer_log.md`, 필요하면 `source_register.md`와 선택 자료 요약.
+100문 100답 기록, 필요하면 자료 목록과 선택 자료 요약.
 
 ## 나와야 할 결과
 
-`outputs/02_round1_summary.md`에 들어갈 요약이 나옵니다.
+1차 인터뷰 요약에 들어갈 내용이 나옵니다.
 
 ---
 

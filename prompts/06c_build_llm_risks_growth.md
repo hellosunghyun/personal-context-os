@@ -2,7 +2,7 @@
 
 [← 이전](06b_build_work_communication.md) | [목차](../SUMMARY.md) | [다음 →](06d_build_active_context.md)
 
-`outputs/drafts/05c_llm_risks_growth.md`만 만들 때 사용합니다.
+LLM 답변 취향/리스크/성장 초안만 만들 때 사용합니다.
 
 ```text
 아래 자료들은 한 사람의 개인 사용 설명서를 만들기 위한 원자료다.
@@ -28,7 +28,7 @@ outputs/drafts/05c_llm_risks_growth.md
 - 중요한 문장에는 가능한 한 근거 ID를 붙인다.
 
 입력 자료:
-[source_register.md, 01_answer_log.md, 인터뷰 요약, answer_taste_log.md, 선택 자료 요약을 붙여넣거나 첨부]
+[자료 목록, 100문 100답 기록, 인터뷰 요약, 답변 취향 로그, 선택 자료 요약을 붙여넣거나 첨부]
 
 마지막에 아래를 붙인다.
 

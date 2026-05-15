@@ -1,4 +1,4 @@
-# interview_summary.md
+# 인터뷰 요약
 
 [← 이전](answer_log.md) | [목차](../SUMMARY.md) | [다음 →](final_manual.md)
 

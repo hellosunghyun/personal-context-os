@@ -8,7 +8,7 @@
 
 ## 넣을 자료
 
-`source_register.md`, `01_answer_log.md`, `02_round1_summary.md`, `03_followup_questions.md`, `04_round2_summary.md`, 선택 자료 요약.
+자료 목록, 100문 100답 기록, 1차 인터뷰 요약, 추가 질문 목록, 2차 인터뷰 요약, 선택 자료 요약.
 
 ## 나와야 할 결과
 

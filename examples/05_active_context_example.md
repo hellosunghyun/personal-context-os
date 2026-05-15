@@ -5,7 +5,7 @@
 아래는 완성본의 모양을 보여주기 위한 짧은 예시입니다. 그대로 쓰기보다 구조를 참고하세요.
 
 ```markdown
-# active_context.md
+# Active Context 예시
 
 ## 사용 규칙
 

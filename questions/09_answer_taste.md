@@ -80,4 +80,4 @@ AI가 너무 잘 써서 오히려 제 답변처럼 느껴지지 않는 경우입
 
 ## 다음으로
 
-다음 파일로 이동합니다: [10_future_manual.md](10_future_manual.md)
+다음으로 이동합니다: [미래와 사용 설명서 질문](10_future_manual.md)

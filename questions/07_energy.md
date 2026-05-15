@@ -80,4 +80,4 @@
 
 ## 다음으로
 
-다음 파일로 이동합니다: [08_relationships.md](08_relationships.md)
+다음으로 이동합니다: [관계와 협업 질문](08_relationships.md)

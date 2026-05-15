@@ -80,4 +80,4 @@
 
 ## 다음으로
 
-다음 파일로 이동합니다: [../workflow/04_round1_interview.md](../workflow/04_round1_interview.md)
+다음으로 이동합니다: [1차 인터뷰 진행하기](../workflow/04_round1_interview.md)

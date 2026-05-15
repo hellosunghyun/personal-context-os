@@ -4,7 +4,7 @@
 
 ## 지금 할 일
 
-추가 질문을 바탕으로 2차 인터뷰를 진행하고 `outputs/04_round2_summary.md`를 만듭니다.
+추가 질문을 바탕으로 2차 인터뷰를 진행하고 2차 인터뷰 요약을 만듭니다.
 
 ---
 
@@ -17,9 +17,9 @@
 ## 준비물
 
 ```text
-outputs/01_answer_log.md
-outputs/02_round1_summary.md
-outputs/03_followup_questions.md
+100문 100답 기록
+1차 인터뷰 요약
+추가 질문 목록
 ```
 
 ---
@@ -27,9 +27,9 @@ outputs/03_followup_questions.md
 ## 진행 방법
 
 1. ChatGPT에 준비물을 첨부합니다.
-2. [prompts/05_round2_interview.md](../prompts/05_round2_interview.md)를 붙여넣습니다.
+2. [2차 인터뷰 프롬프트](../prompts/05_round2_interview.md)를 붙여넣습니다.
 3. 텍스트나 음성 중 편한 방식으로 답합니다.
-4. 끝나면 `outputs/04_round2_summary.md`로 정리하게 합니다.
+4. 끝나면 2차 인터뷰 요약으로 정리하게 합니다.
 
 ---
 
@@ -47,7 +47,7 @@ outputs/03_followup_questions.md
 ## 이 단계가 끝나면
 
 ```text
-outputs/04_round2_summary.md
+2차 인터뷰 요약
 ```
 
 ---

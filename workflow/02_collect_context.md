@@ -40,13 +40,13 @@
 
 ```text
 inputs/ 폴더에 저장
-outputs/source_register.md에 목록 작성
+자료 목록에 사용 범위와 보관 위치 작성
 ```
 
 ChatGPT로 진행한다면:
 
 ```text
-자료를 바로 올리기 전에 source_register.md를 먼저 작성
+자료를 바로 올리기 전에 자료 목록을 먼저 작성
 민감한 자료는 요약하거나 가명화한 뒤 업로드
 업로드한 위치와 나중에 삭제/갱신할 기준을 함께 기록
 ```
@@ -55,24 +55,24 @@ ChatGPT로 진행한다면:
 
 ## GPT에게 자료 분류를 맡기는 방법
 
-자료가 많다면 [prompts/01_material_intake.md](../prompts/01_material_intake.md)를 사용합니다.
+자료가 많다면 [자료 요약 프롬프트](../prompts/01_material_intake.md)를 사용합니다.
 
 진행 순서:
 
 1. ChatGPT에 새 채팅 또는 Project를 엽니다.
-2. `prompts/01_material_intake.md`를 붙여넣습니다.
+2. [자료 요약 프롬프트](../prompts/01_material_intake.md)를 붙여넣습니다.
 3. 자료를 하나씩 첨부하거나 요약해서 붙여넣습니다.
 4. ChatGPT가 민감도와 활용 방식을 분류하게 합니다.
 5. 원문 위치, 업로드/보관 위치, 삭제/갱신 기준을 같이 정리합니다.
-6. 결과를 `outputs/source_register.md`에 저장합니다.
+6. 결과를 자료 목록에 저장합니다.
 
 ---
 
 ## 이 단계가 끝나면
 
 ```text
-outputs/source_register.md
-inputs/에 정리된 선택 자료
+자료 목록
+정리된 선택 자료
 ```
 
 ---

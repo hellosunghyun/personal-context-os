@@ -80,4 +80,4 @@
 
 ## 다음으로
 
-다음 파일로 이동합니다: [06_communication.md](06_communication.md)
+다음으로 이동합니다: [소통 방식 질문](06_communication.md)

@@ -8,8 +8,8 @@
 
 ## 진행
 
-1. `templates/answer_log.md`를 복사합니다.
-2. `questions/01_identity.md`의 Q1~Q10에 답합니다.
+1. [100문 100답 기록지](../templates/answer_log.md)를 복사합니다.
+2. [현재 모습 질문](../questions/01_identity.md)의 Q1~Q10에 답합니다.
 3. ChatGPT에 붙여넣고 말합니다.
 
 ```text

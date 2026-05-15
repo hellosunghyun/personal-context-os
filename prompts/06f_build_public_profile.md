@@ -2,7 +2,7 @@
 
 [← 이전](06e_build_team_share.md) | [목차](../SUMMARY.md) | [다음 →](06_merge_manual_outputs.md)
 
-공개용 문서가 필요할 때만 `outputs/drafts/08a_public_profile.md`를 만듭니다.
+공개용 문서가 필요할 때만 공개용 프로필 초안을 만듭니다.
 
 ```text
 아래 자료를 바탕으로 공개 가능한 프로필 초안을 만들어줘.
@@ -32,7 +32,7 @@ outputs/drafts/08a_public_profile.md
 - 근거가 약한 자기 브랜딩 문장
 
 입력 자료:
-[full_manual 초안, team_share 초안, source_register.md를 붙여넣거나 첨부]
+[전체 사용 설명서 초안, 팀원용 1페이지 초안, 자료 목록을 붙여넣거나 첨부]
 
 마지막에 아래를 붙인다.
 

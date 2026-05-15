@@ -80,4 +80,4 @@
 
 ## 다음으로
 
-다음 파일로 이동합니다: [04_intuition_decision.md](04_intuition_decision.md)
+다음으로 이동합니다: [직관과 판단 질문](04_intuition_decision.md)

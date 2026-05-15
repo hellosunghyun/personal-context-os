@@ -2,7 +2,7 @@
 
 [목차](../SUMMARY.md) | [품질 테스트 →](../tests/manual_quality_test.md) | [정식판으로 확장 →](06_final_manual_deep.md)
 
-15분 시작판이나 2시간 실사용판에서 `outputs/06_active_context.md`의 첫 초안을 만들 때 사용합니다.
+15분 시작판이나 2시간 실사용판에서 Active Context의 첫 초안을 만들 때 사용합니다.
 
 이 프롬프트는 full_manual을 만들기 전에도 쓸 수 있습니다. Q1~Q5만 답했거나, 필수 30문과 1차 인터뷰까지만 진행한 상태를 기준으로 합니다.
 

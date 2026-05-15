@@ -80,4 +80,4 @@
 
 ## 다음으로
 
-다음 파일로 이동합니다: [09_answer_taste.md](09_answer_taste.md)
+다음으로 이동합니다: [AI 답변 취향 질문](09_answer_taste.md)

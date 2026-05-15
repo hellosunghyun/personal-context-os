@@ -26,8 +26,8 @@
 
 ### 이 방식을 선택한 경우
 
-1. [templates/answer_log.md](../templates/answer_log.md)를 복사합니다.
-2. `outputs/01_answer_log.md`로 저장합니다.
+1. [100문 100답 기록지](../templates/answer_log.md)를 복사합니다.
+2. 100문 100답 기록으로 저장합니다.
 3. 100문 100답을 보며 직접 답합니다.
 4. 답변 파일을 ChatGPT에 첨부하거나 붙여넣습니다.
 
@@ -55,7 +55,7 @@
 ### 이 방식을 선택한 경우
 
 1. ChatGPT에 새 채팅이나 Project를 엽니다.
-2. [prompts/02_one_question_mode.md](../prompts/02_one_question_mode.md)를 붙여넣습니다.
+2. [한 문제씩 진행하는 프롬프트](../prompts/02_one_question_mode.md)를 붙여넣습니다.
 3. 질문 파일을 첨부하거나, “1번부터 시작해줘”라고 말합니다.
 4. ChatGPT가 한 질문씩 묻고, 사용자는 답합니다.
 5. 중간에 멈추고 싶으면 “여기까지 정리해줘”라고 말합니다.

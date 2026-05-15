@@ -1,4 +1,4 @@
-# answer_taste_log.md
+# 답변 취향 로그
 
 [← 이전](active_context.md) | [목차](../SUMMARY.md) | [다음 →](event_update_log.md)
 

@@ -4,7 +4,7 @@
 
 ## 지금 할 일
 
-100개 질문에 답해 `outputs/01_answer_log.md`를 만듭니다.
+100개 질문에 답해 100문 100답 기록을 만듭니다.
 
 ---
 
@@ -30,10 +30,10 @@
 
 이 방식은 가장 정돈되어 있습니다.
 
-1. [templates/answer_log.md](../templates/answer_log.md)를 복사합니다.
-2. `outputs/01_answer_log.md`로 저장합니다.
-3. [questions/00_how_to_use_questions.md](../questions/00_how_to_use_questions.md)를 읽습니다.
-4. [questions/01_identity.md](../questions/01_identity.md)부터 순서대로 답합니다.
+1. [100문 100답 기록지](../templates/answer_log.md)를 복사합니다.
+2. 100문 100답 기록으로 저장합니다.
+3. [질문 사용법](../questions/00_how_to_use_questions.md)을 읽습니다.
+4. [현재 모습 질문](../questions/01_identity.md)부터 순서대로 답합니다.
 5. 답하기 어려운 질문은 `패스`라고 적습니다.
 
 ---
@@ -43,11 +43,11 @@
 이 방식은 시작이 쉽습니다.
 
 1. ChatGPT에 새 채팅 또는 Project를 엽니다.
-2. [prompts/02_one_question_mode.md](../prompts/02_one_question_mode.md)를 붙여넣습니다.
+2. [한 문제씩 진행하는 프롬프트](../prompts/02_one_question_mode.md)를 붙여넣습니다.
 3. 질문 파일을 첨부하거나, “questions 폴더의 1번부터 진행하겠다”고 말합니다.
 4. ChatGPT가 1번 질문만 합니다.
 5. 사용자가 답하면 ChatGPT가 짧게 정리하고 다음 질문으로 넘어갑니다.
-6. 멈추고 싶으면 “여기까지 answer_log.md 형식으로 정리해줘”라고 말합니다.
+6. 멈추고 싶으면 “여기까지 100문 100답 기록지 형식으로 정리해줘”라고 말합니다.
 
 ---
 
@@ -56,11 +56,11 @@
 이 방식은 말하면서 생각이 잘 풀리는 사람에게 좋습니다.
 
 1. ChatGPT에 새 채팅 또는 Project를 엽니다.
-2. [prompts/02_one_question_mode.md](../prompts/02_one_question_mode.md)를 먼저 텍스트로 붙여넣습니다.
+2. [한 문제씩 진행하는 프롬프트](../prompts/02_one_question_mode.md)를 먼저 텍스트로 붙여넣습니다.
 3. 음성 대화를 켭니다.
 4. “1번부터 자연스럽게 질문해줘. 저는 말로 답할게.”라고 말합니다.
-5. 대화가 끝나면 반드시 “오늘 답변을 answer_log.md 형식으로 정리해줘”라고 요청합니다.
-6. 정리 결과를 `outputs/01_answer_log.md`로 저장합니다.
+5. 대화가 끝나면 반드시 “오늘 답변을 100문 100답 기록지 형식으로 정리해줘”라고 요청합니다.
+6. 정리 결과를 100문 100답 기록으로 저장합니다.
 
 ---
 
@@ -95,7 +95,7 @@
 ## 이 단계가 끝나면
 
 ```text
-outputs/01_answer_log.md
+100문 100답 기록
 ```
 
 ---

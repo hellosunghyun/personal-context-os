@@ -4,7 +4,7 @@
 
 ## 지금 할 일
 
-100문 100답을 바탕으로 ChatGPT와 1차 인터뷰를 진행하고 `outputs/02_round1_summary.md`를 만듭니다.
+100문 100답을 바탕으로 ChatGPT와 1차 인터뷰를 진행하고 1차 인터뷰 요약을 만듭니다.
 
 ---
 
@@ -17,33 +17,33 @@
 ## 준비물
 
 ```text
-outputs/01_answer_log.md
-outputs/source_register.md
-필요하면 inputs/의 선택 자료
+100문 100답 기록
+자료 목록
+필요하면 선택 자료
 ```
 
 ---
 
 ## 텍스트로 진행하는 방법
 
-1. ChatGPT에 `01_answer_log.md`를 첨부합니다.
-2. 필요하면 `source_register.md`도 첨부합니다.
-3. [prompts/03_round1_interview.md](../prompts/03_round1_interview.md)를 붙여넣습니다.
+1. ChatGPT에 100문 100답 기록을 첨부합니다.
+2. 필요하면 자료 목록도 첨부합니다.
+3. [1차 인터뷰 프롬프트](../prompts/03_round1_interview.md)를 붙여넣습니다.
 4. ChatGPT가 한 질문씩 묻게 합니다.
-5. 대화가 끝나면 요약을 `outputs/02_round1_summary.md`로 저장합니다.
+5. 대화가 끝나면 요약을 1차 인터뷰 요약으로 저장합니다.
 
 ---
 
 ## 음성으로 진행하는 방법
 
-1. ChatGPT에 `01_answer_log.md`를 첨부합니다.
-2. [prompts/03_round1_interview.md](../prompts/03_round1_interview.md)를 먼저 텍스트로 붙여넣습니다.
+1. ChatGPT에 100문 100답 기록을 첨부합니다.
+2. [1차 인터뷰 프롬프트](../prompts/03_round1_interview.md)를 먼저 텍스트로 붙여넣습니다.
 3. 음성 대화를 켭니다.
 4. 30~60분 정도 편하게 말합니다.
 5. 끝나면 반드시 아래처럼 요청합니다.
 
 ```text
-방금 대화를 outputs/02_round1_summary.md로 저장할 수 있게 Markdown 형식으로 정리해줘.
+방금 대화를 1차 인터뷰 요약으로 저장할 수 있게 Markdown 형식으로 정리해줘.
 제가 실제로 말한 내용, 너의 해석, 추가 확인 필요를 분리해줘.
 ```
 
@@ -63,7 +63,7 @@ ChatGPT가 답을 대신 만들면 안 된다.
 ## 이 단계가 끝나면
 
 ```text
-outputs/02_round1_summary.md
+1차 인터뷰 요약
 ```
 
 ---

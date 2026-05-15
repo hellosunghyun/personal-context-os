@@ -2,7 +2,7 @@
 
 [← 이전](06c_build_llm_risks_growth.md) | [목차](../SUMMARY.md) | [다음 →](06e_build_team_share.md)
 
-`outputs/drafts/06a_active_context.md`만 만들 때 사용합니다.
+Active Context 초안만 만들 때 사용합니다.
 
 ```text
 아래 자료를 바탕으로 LLM에게 자주 첨부할 active_context 초안을 만들어줘.
@@ -31,7 +31,7 @@ outputs/drafts/06a_active_context.md
 - 마지막 업데이트 날짜
 
 입력 자료:
-[파트 A/B/C 초안, answer_taste_log.md, source_register.md를 붙여넣거나 첨부]
+[파트 A/B/C 초안, 답변 취향 로그, 자료 목록을 붙여넣거나 첨부]
 
 마지막에 아래를 붙인다.
 

@@ -19,9 +19,9 @@
 ## 준비물
 
 ```text
-outputs/01_answer_log.md
-outputs/02_round1_summary.md
-outputs/source_register.md
+100문 100답 기록
+1차 인터뷰 요약
+자료 목록
 ```
 
 ---
@@ -29,9 +29,9 @@ outputs/source_register.md
 ## 진행 방법
 
 1. ChatGPT에 위 파일들을 첨부합니다.
-2. [prompts/04_generate_followups.md](../prompts/04_generate_followups.md)를 붙여넣습니다.
+2. [추가 질문 생성 프롬프트](../prompts/04_generate_followups.md)를 붙여넣습니다.
 3. ChatGPT가 질문만 만들게 합니다.
-4. 결과를 `outputs/03_followup_questions.md`로 저장합니다.
+4. 결과를 추가 질문 목록으로 저장합니다.
 
 ---
 
@@ -50,7 +50,7 @@ outputs/source_register.md
 ## 이 단계가 끝나면
 
 ```text
-outputs/03_followup_questions.md
+추가 질문 목록
 ```
 
 ---

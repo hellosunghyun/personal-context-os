@@ -7,8 +7,8 @@
 
 ## 0. 시작
 
-- [START_HERE.md](START_HERE.md)
-- [workflow/00_linear_flow.md](workflow/00_linear_flow.md)
+- [시작하기](START_HERE.md)
+- [전체 실행 흐름](workflow/00_linear_flow.md)
 - [첫 생성 완료](FINISH.md)
 
 ---
@@ -119,5 +119,5 @@
 
 ## 8. 참고
 
-- [references.md](references.md)
-- [LICENSE.md](LICENSE.md)
+- [참고 자료](references.md)
+- [라이선스](LICENSE.md)

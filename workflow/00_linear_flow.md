@@ -47,7 +47,7 @@ GPTs나 챗봇으로 확장할지
 월간 업데이트 루틴을 운영할지
 ```
 
-처음부터 모든 단계를 끝내려 하지 않아도 됩니다. 먼저 작은 active_context를 만들고, 실제로 써본 뒤 필요할 때 full_manual로 확장해도 됩니다.
+처음부터 모든 단계를 끝내려 하지 않아도 됩니다. 먼저 작은 Active Context를 만들고, 실제로 써본 뒤 필요할 때 전체 사용 설명서로 확장해도 됩니다.
 
 ---
 
@@ -56,16 +56,16 @@ GPTs나 챗봇으로 확장할지
 | 단계 | 결과물 |
 |---|---|
 | 1. 작업 공간 | 폴더 또는 ChatGPT Project |
-| 2. 자료 수집 | source_register.md |
-| 3. 100문 100답 | 01_answer_log.md |
-| 4. 1차 인터뷰 | 02_round1_summary.md |
-| 5. 추가 질문 | 03_followup_questions.md |
-| 6. 2차 인터뷰 | 04_round2_summary.md |
-| 7. 파트별 초안 | outputs/drafts/*.md |
-| 8. 합치기/검수 | 05_full_manual.md, 06_active_context.md, 07_team_share_one_pager.md |
-| 9. 완료 확인 | FINISH.md |
+| 2. 자료 수집 | 자료 목록 |
+| 3. 100문 100답 | 100문 100답 기록 |
+| 4. 1차 인터뷰 | 1차 인터뷰 요약 |
+| 5. 추가 질문 | 추가 질문 목록 |
+| 6. 2차 인터뷰 | 2차 인터뷰 요약 |
+| 7. 파트별 초안 | 파트별 초안 |
+| 8. 합치기/검수 | 전체 사용 설명서, Active Context, 팀원용 1페이지 |
+| 9. 완료 확인 | 첫 생성 완료 확인 |
 
-공개용이 필요할 때만 `08_public_profile.md`를 만듭니다. 완성 후 운영을 시작할 때만 `09_update_plan.md`, `answer_taste_log.md`, `event_update_log.md`를 만듭니다.
+공개용이 필요할 때만 공개용 프로필을 만듭니다. 완성 후 운영을 시작할 때만 업데이트 계획, 답변 취향 로그, 사건 기반 업데이트 로그를 만듭니다.
 
 ---
 

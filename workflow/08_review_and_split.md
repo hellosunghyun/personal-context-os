@@ -34,31 +34,31 @@ GPT 답변이 마음에 들어도 바로 쓰면 안 됩니다.
 
 ## 1. 파트 초안 합치기
 
-1. `outputs/drafts/`의 초안 파일을 모두 첨부합니다.
-2. [prompts/06_merge_manual_outputs.md](../prompts/06_merge_manual_outputs.md)를 사용합니다.
+1. 파트별 초안 파일을 모두 첨부합니다.
+2. [파트 초안 합치기 프롬프트](../prompts/06_merge_manual_outputs.md)를 사용합니다.
 3. 근거 ID, 충돌, 평가 불가 항목이 사라지지 않게 합칩니다.
-4. 아래 최종 파일로 합칩니다.
+4. 아래 최종 문서로 합칩니다.
 
 ```text
-outputs/05_full_manual.md
-outputs/06_active_context.md
-outputs/07_team_share_one_pager.md
-outputs/08_public_profile.md (필요할 때만)
+전체 사용 설명서
+Active Context
+팀원용 1페이지
+공개용 프로필
 ```
 
 ---
 
 ## 2. 저자성 검수
 
-1. `outputs/05_full_manual.md`를 ChatGPT에 첨부합니다.
-2. [prompts/07_authorship_review.md](../prompts/07_authorship_review.md)를 사용합니다.
+1. 전체 사용 설명서를 ChatGPT에 첨부합니다.
+2. [저자성 검수 프롬프트](../prompts/07_authorship_review.md)를 사용합니다.
 3. 제 말 같지 않은 문장, 근거가 약한 해석, 공개 범위가 섞인 부분을 수정합니다.
 
 ---
 
 ## 3. 버전 분리 확인
 
-1. [prompts/08_split_versions.md](../prompts/08_split_versions.md)를 사용합니다.
+1. [버전 분리 프롬프트](../prompts/08_split_versions.md)를 사용합니다.
 2. 팀원용에서 민감한 내용이 제거됐는지 확인합니다.
 3. 공개용을 만들었다면 공개 가능한 내용만 남았는지 확인합니다.
 4. 수정된 결과를 다시 저장합니다.
@@ -86,10 +86,10 @@ outputs/08_public_profile.md (필요할 때만)
 ## 이 단계가 끝나면
 
 ```text
-outputs/05_full_manual.md 수정본
-outputs/06_active_context.md 수정본
-outputs/07_team_share_one_pager.md 수정본
-outputs/08_public_profile.md 수정본 (공개용을 만들었을 때만)
+전체 사용 설명서 수정본
+Active Context 수정본
+팀원용 1페이지 수정본
+공개용 프로필 수정본 (공개용을 만들었을 때만)
 ```
 
 ---

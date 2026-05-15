@@ -1,4 +1,4 @@
-# 01_answer_log.md
+# 100문 100답 기록지
 
 [← 이전](source_register.md) | [목차](../SUMMARY.md) | [다음 →](interview_summary.md)
 

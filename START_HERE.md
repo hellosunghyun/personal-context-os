@@ -11,19 +11,19 @@
 먼저 만들 문서는 세 가지입니다.
 
 ```text
-1. full_manual.md
+1. 전체 사용 설명서
    본인을 설명하는 전체 사용 설명서. 본인용 원본.
 
-2. active_context.md
+2. Active Context
    LLM에게 자주 첨부할 짧은 핵심 맥락 파일.
 
-3. team_share_one_pager.md
+3. 팀원용 1페이지
    팀원이나 가까운 협업자에게 공유할 수 있는 1페이지 요약.
 ```
 
 처음부터 완벽하게 만들 필요는 없습니다. 먼저 원재료를 모으고, 그다음 파트별로 초안을 만든 뒤 합칩니다.
 
-`public_profile.md`, `update_plan.md`, GPTs/챗봇 확장, 월간 업데이트는 **완성 후에 필요할 때** 봅니다.
+공개용 프로필, 업데이트 계획, GPTs/챗봇 확장, 월간 업데이트는 **완성 후에 필요할 때** 봅니다.
 
 이 가이드는 최신 기능을 다 챙겨 쓰는 법이 아닙니다. 제가 지금 쓰고 있는 수동 맥락 정리 방식을 풀어둔 문서입니다. 기능이 바뀌어도 원자료를 남기고, 근거를 구분하고, 공개 범위와 저자성을 확인하는 일은 계속 필요합니다.
 
@@ -33,12 +33,12 @@
 
 시간이 거의 없다면 이것만 하세요.
 
-1. `outputs/` 폴더를 만든다.
-2. [templates/answer_log.md](templates/answer_log.md)를 복사해 `outputs/01_answer_log.md`로 저장한다.
-3. [questions/00_how_to_use_questions.md](questions/00_how_to_use_questions.md)를 읽는다.
-4. [questions/01_identity.md](questions/01_identity.md)의 1번부터 5번까지만 답한다.
+1. 결과를 저장할 폴더를 만든다.
+2. [100문 100답 기록지](templates/answer_log.md)를 복사해 기록 파일로 저장한다.
+3. [질문 사용법](questions/00_how_to_use_questions.md)을 읽는다.
+4. [현재 모습 질문](questions/01_identity.md)의 1번부터 5번까지만 답한다.
 5. 답변을 ChatGPT에 붙여넣고 추가 질문 10개를 받은 뒤, 지금 답할 수 있는 것만 짧게 답한다.
-6. [prompts/05a_build_minimal_active_context.md](prompts/05a_build_minimal_active_context.md)로 `outputs/06_active_context.md`의 첫 초안을 만든다.
+6. [미니 Active Context 만들기](prompts/05a_build_minimal_active_context.md)로 Active Context의 첫 초안을 만든다.
 
 ```text
 아래는 제 사용 설명서를 만들기 위한 초기 답변이다.
@@ -57,12 +57,12 @@
 
 실제로 LLM 답변을 바꾸는 짧은 버전을 만들고 싶다면 여기까지 진행합니다.
 
-1. [workflow/01_setup_workspace.md](workflow/01_setup_workspace.md) 작업 공간 만들기
-2. [workflow/02_collect_context.md](workflow/02_collect_context.md) 선택 자료 모으기
-3. [questions/00_how_to_use_questions.md](questions/00_how_to_use_questions.md)의 필수 30문만 답하기
-4. [workflow/04_round1_interview.md](workflow/04_round1_interview.md) 1차 인터뷰 진행하기
-5. [prompts/05a_build_minimal_active_context.md](prompts/05a_build_minimal_active_context.md)로 `outputs/06_active_context.md`와 `outputs/answer_taste_log.md` 먼저 만들기
-6. [tests/manual_quality_test.md](tests/manual_quality_test.md)의 before/after 테스트 1~2개만 실행하기
+1. [작업 공간 만들기](workflow/01_setup_workspace.md)
+2. [선택 자료 모으기](workflow/02_collect_context.md)
+3. [질문 사용법](questions/00_how_to_use_questions.md)에서 필수 30문만 답하기
+4. [1차 인터뷰 진행하기](workflow/04_round1_interview.md)
+5. [미니 Active Context 만들기](prompts/05a_build_minimal_active_context.md)로 Active Context와 답변 취향 로그 먼저 만들기
+6. [품질 테스트 질문](tests/manual_quality_test.md)에서 before/after 테스트 1~2개만 실행하기
 
 여기까지 해도 일상적인 LLM 대화에는 충분히 쓸 수 있습니다.
 
@@ -72,17 +72,17 @@
 
 full_manual, 팀원용 문서, 공개용 문서까지 만들고 싶다면 아래 순서로 진행합니다.
 
-1. [workflow/01_setup_workspace.md](workflow/01_setup_workspace.md) 작업 공간 만들기
-2. [workflow/02_collect_context.md](workflow/02_collect_context.md) 선택 자료 모으기
-3. [workflow/03_answer_100_questions.md](workflow/03_answer_100_questions.md) 100문 100답 진행하기
-4. [workflow/04_round1_interview.md](workflow/04_round1_interview.md) 1차 인터뷰 진행하기
-5. [workflow/05_generate_followups.md](workflow/05_generate_followups.md) 추가 질문 만들기
-6. [workflow/06_round2_interview.md](workflow/06_round2_interview.md) 2차 인터뷰 진행하기
-7. [workflow/07_build_manual.md](workflow/07_build_manual.md) 파트별 최종 문서 초안 만들기
-8. [workflow/08_review_and_split.md](workflow/08_review_and_split.md) 초안을 합치고 검수하기
-9. [FINISH.md](FINISH.md)에서 첫 생성 완료 상태 확인하기
+1. [작업 공간 만들기](workflow/01_setup_workspace.md)
+2. [선택 자료 모으기](workflow/02_collect_context.md)
+3. [100문 100답 진행하기](workflow/03_answer_100_questions.md)
+4. [1차 인터뷰 진행하기](workflow/04_round1_interview.md)
+5. [추가 질문 만들기](workflow/05_generate_followups.md)
+6. [2차 인터뷰 진행하기](workflow/06_round2_interview.md)
+7. [파트별 최종 문서 초안 만들기](workflow/07_build_manual.md)
+8. [초안 합치고 검수하기](workflow/08_review_and_split.md)
+9. [첫 생성 완료 확인](FINISH.md)
 
-완성 후 계속 운영할 때만 [workflow/09_update_system.md](workflow/09_update_system.md)를 봅니다.
+완성 후 계속 운영할 때만 [업데이트 시스템](workflow/09_update_system.md)을 봅니다.
 
 ---
 
@@ -131,4 +131,4 @@ GPT 답변이 마음에 든다고 바로 쓰지 않는다.
 정확히 평가하기 어렵다면 좋은 예시와 나쁜 예시만이라도 남긴다.
 ```
 
-다음 문서: [workflow/00_linear_flow.md](workflow/00_linear_flow.md)
+다음 문서: [전체 실행 흐름](workflow/00_linear_flow.md)

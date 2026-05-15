@@ -45,15 +45,15 @@ ChatGPT Project로 진행한다면 파일 이름에 `draft_`를 붙여 구분합
 
 가능하면 긴 내용을 채팅에 한 번에 붙여넣지 말고 파일로 첨부하세요.
 
-추천 첨부 방식:
+추천 첨부 순서:
 
 ```text
-1_source_register.md
-2_answer_log.md
-3_round1_summary.md
-4_followup_questions.md
-5_round2_summary.md
-6_optional_materials_summary.md
+1. 자료 목록
+2. 100문 100답 기록
+3. 1차 인터뷰 요약
+4. 추가 질문
+5. 2차 인터뷰 요약
+6. 선택 자료 요약
 ```
 
 파일을 여러 개 한 번에 첨부해도 됩니다. 단, 민감한 원문은 넣지 말고 요약본을 사용하세요.
@@ -65,47 +65,38 @@ ChatGPT Project로 진행한다면 파일 이름에 `draft_`를 붙여 구분합
 ## 실행 방법
 
 1. ChatGPT에 위 파일들을 첨부합니다.
-2. [prompts/06_final_manual_deep.md](../prompts/06_final_manual_deep.md)를 기준으로 보거나, 아래 파트별 프롬프트 중 하나를 붙여넣습니다.
+2. [파트별 최종 문서 프롬프트](../prompts/06_final_manual_deep.md)를 기준으로 보거나, 아래 파트별 프롬프트 중 하나를 붙여넣습니다.
 3. 한 번에 전체 문서를 만들지 말고, 아래 파트 중 하나만 선택해 생성합니다.
 4. 근거가 약한 내용은 `추가 확인 필요` 또는 `평가 불가`로 남기게 합니다.
-5. 각 결과를 `outputs/drafts/`에 저장합니다.
+5. 각 결과를 파트별 초안으로 저장합니다.
 
 파트별 프롬프트:
 
-```text
-prompts/06a_build_identity_values.md
-prompts/06b_build_work_communication.md
-prompts/06c_build_llm_risks_growth.md
-prompts/06d_build_active_context.md
-prompts/06e_build_team_share.md
-prompts/06f_build_public_profile.md
-```
+- [정체성/가치/판단 초안](../prompts/06a_build_identity_values.md)
+- [일/소통/에너지/관계 초안](../prompts/06b_build_work_communication.md)
+- [LLM 답변 취향/리스크/성장 초안](../prompts/06c_build_llm_risks_growth.md)
+- [Active Context 초안](../prompts/06d_build_active_context.md)
+- [팀원용 1페이지 초안](../prompts/06e_build_team_share.md)
+- [공개용 프로필 초안](../prompts/06f_build_public_profile.md)
 
 권장 생성 순서:
 
-```text
-1. outputs/drafts/05a_identity_values.md
-2. outputs/drafts/05b_work_communication.md
-3. outputs/drafts/05c_llm_risks_growth.md
-4. outputs/drafts/06a_active_context.md
-5. outputs/drafts/07a_team_share_one_pager.md
-6. outputs/drafts/08a_public_profile.md (공개용이 필요할 때만)
-```
+| 순서 | 초안 |
+|---:|---|
+| 1 | 정체성/가치/판단 |
+| 2 | 일/소통/에너지/관계 |
+| 3 | LLM 답변 취향/리스크/성장 |
+| 4 | Active Context |
+| 5 | 팀원용 1페이지 |
+| 6 | 공개용 프로필 |
 
-`outputs/09_update_plan.md`는 첫 최종본이 나온 뒤, 운영을 시작할 때 만듭니다.
+업데이트 계획은 첫 최종본이 나온 뒤, 운영을 시작할 때 만듭니다.
 
 ---
 
 ## 이 단계가 끝나면
 
-```text
-outputs/drafts/05a_identity_values.md
-outputs/drafts/05b_work_communication.md
-outputs/drafts/05c_llm_risks_growth.md
-outputs/drafts/06a_active_context.md
-outputs/drafts/07a_team_share_one_pager.md
-outputs/drafts/08a_public_profile.md (선택)
-```
+파트별 초안이 생깁니다. 공개용 프로필 초안은 필요할 때만 만듭니다.
 
 ---
 

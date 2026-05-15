@@ -5,7 +5,7 @@
 ## 사용자
 
 ```text
-prompts/02_one_question_mode.md를 붙여넣음.
+한 문제씩 진행하는 프롬프트를 붙여넣음.
 Q1부터 시작해줘.
 ```
 

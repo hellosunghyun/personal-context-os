@@ -4,15 +4,15 @@
 
 ## 언제 쓰면 좋나요?
 
-사용 설명서를 만든 뒤 월간 업데이트, 사건 기반 업데이트, active_context 압축에 사용합니다. 첫 생성 중에는 사용하지 않아도 됩니다.
+사용 설명서를 만든 뒤 월간 업데이트, 사건 기반 업데이트, Active Context 압축에 사용합니다. 첫 생성 중에는 사용하지 않아도 됩니다.
 
 ## 넣을 자료
 
-기존 `full_manual.md`, `active_context.md`, 최근 기록 또는 사건 로그.
+기존 전체 사용 설명서, Active Context, 최근 기록 또는 사건 로그.
 
 ## 나와야 할 결과
 
-변경분, archive 후보, active_context 수정안이 나옵니다.
+변경분, archive 후보, Active Context 수정안이 나옵니다.
 
 ---
 
@@ -23,8 +23,8 @@
 바뀐 점만 찾고, 지금 LLM에게 필요한 핵심 맥락을 갱신한다.
 
 입력:
-- 기존 full_manual.md
-- 기존 active_context.md
+- 기존 전체 사용 설명서
+- 기존 Active Context
 - 최근 기록 또는 event_update_log
 - 좋았던/싫었던 GPT 답변 로그가 있다면 포함
 
@@ -35,7 +35,7 @@
 - 약해진 패턴
 - 추가 확인 필요
 - archive로 옮길 내용
-- active_context에 반영할 내용
+- Active Context에 반영할 내용
 
 출력 형식:
 
@@ -49,7 +49,7 @@
 
 ## 5. 추가 확인 질문
 
-## 6. active_context.md 수정안
+## 6. Active Context 수정안
 1~3페이지 안에 들어가도록 압축한다.
 
 ## 7. answer_taste_log에 추가할 답변 취향

@@ -8,11 +8,11 @@
 
 ## 넣을 자료
 
-`01_answer_log.md`, `02_round1_summary.md`, `03_followup_questions.md`.
+100문 100답 기록, 1차 인터뷰 요약, 추가 질문 목록.
 
 ## 나와야 할 결과
 
-`04_round2_summary.md`에 들어갈 최종 보강 요약이 나옵니다.
+2차 인터뷰 요약에 들어갈 최종 보강 내용이 나옵니다.
 
 ---
 

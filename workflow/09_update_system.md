@@ -6,7 +6,7 @@
 
 한 번 만든 사용 설명서를 오래 쓰기 위해 업데이트 방식을 정합니다.
 
-처음 사용 설명서를 만드는 중이라면 이 문서는 건너뛰어도 됩니다. `outputs/05_full_manual.md`와 `outputs/06_active_context.md`가 생긴 뒤에 다시 봐도 늦지 않습니다.
+처음 사용 설명서를 만드는 중이라면 이 문서는 건너뛰어도 됩니다. 전체 사용 설명서와 Active Context가 생긴 뒤에 다시 봐도 늦지 않습니다.
 
 ---
 
@@ -21,23 +21,23 @@
 ## 추천 운영 구조
 
 ```text
-full_manual.md
+전체 사용 설명서
 - 전체 원본
 - 자주 바꾸지 않음
 
-active_context.md
+Active Context
 - 실제 LLM에게 자주 첨부하는 핵심 파일
 - 월 1회 갱신
 
-answer_taste_log.md
+답변 취향 로그
 - 좋았던 답변과 싫었던 답변 기록
 - GPT가 제 답변 취향을 더 잘 맞추게 하는 자료
 
-event_update_log.md
+사건 기반 업데이트 로그
 - 큰 사건 직후 기록
 - 프로젝트 종료, 피드백, 갈등, 번아웃, 이직 고민 등
 
-archive/
+archive
 - 과거에는 맞았지만 현재는 덜 맞는 내용
 ```
 
@@ -52,16 +52,16 @@ archive/
 이제 덜 맞는 설명은?
 반복해서 좋았던 GPT 답변은?
 반복해서 싫었던 GPT 답변은?
-active_context.md에 추가하거나 뺄 내용은?
+Active Context에 추가하거나 뺄 내용은?
 ```
 
-[prompts/09_update.md](../prompts/09_update.md)를 사용하면 됩니다.
+[업데이트 프롬프트](../prompts/09_update.md)를 사용하면 됩니다.
 
 ---
 
 ## 사건 기반 업데이트
 
-큰 사건이 생긴 직후에는 [templates/event_update_log.md](../templates/event_update_log.md)를 작성합니다.
+큰 사건이 생긴 직후에는 [사건 기반 업데이트 로그](../templates/event_update_log.md)를 작성합니다.
 
 예:
 
@@ -78,7 +78,7 @@ GPT 답변이 매우 좋았거나 매우 나빴던 경우
 
 ## 품질 테스트
 
-분기마다 [tests/manual_quality_test.md](../tests/manual_quality_test.md)를 사용합니다.
+분기마다 [품질 테스트 질문](../tests/manual_quality_test.md)을 사용합니다.
 
 여기서 보려는 것은 문서가 길어졌는지가 아니라, 실제 답변이 더 제 답변처럼 나오는지입니다.
 
@@ -87,9 +87,9 @@ GPT 답변이 매우 좋았거나 매우 나빴던 경우
 ## 이 단계가 끝나면
 
 ```text
-outputs/09_update_plan.md
-outputs/answer_taste_log.md
-outputs/event_update_log.md
+업데이트 계획
+답변 취향 로그
+사건 기반 업데이트 로그
 ```
 
 ---

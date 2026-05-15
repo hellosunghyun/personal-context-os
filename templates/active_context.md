@@ -1,4 +1,4 @@
-# active_context.md
+# Active Context
 
 [← 이전](final_manual.md) | [목차](../SUMMARY.md) | [다음 →](answer_taste_log.md)
 
