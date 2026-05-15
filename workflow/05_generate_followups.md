@@ -1,0 +1,62 @@
+# 5단계. 추가 질문 생성하기
+
+[← 이전](04_round1_interview.md) | [목차](../SUMMARY.md) | [다음 →](06_round2_interview.md)
+
+## 이 페이지에서 지금 할 일
+
+100문 100답과 1차 인터뷰를 바탕으로, 최종 사용 설명서를 만들기 전에 꼭 더 확인해야 할 질문을 생성합니다.
+
+---
+
+## 왜 지금 이걸 하나요?
+
+이 단계는 선택사항이 아닙니다.
+
+100문 100답과 1차 인터뷰만으로 최종 문서를 쓰면, 그럴듯하지만 빈틈 있는 보고서가 나올 수 있습니다. 추가 질문은 빈칸과 모순을 찾아내는 단계입니다.
+
+---
+
+## 준비물
+
+```text
+outputs/01_answer_log.md
+outputs/02_round1_summary.md
+outputs/source_register.md
+```
+
+---
+
+## 진행 방법
+
+1. ChatGPT에 위 파일들을 첨부합니다.
+2. [prompts/04_generate_followups.md](../prompts/04_generate_followups.md)를 붙여넣습니다.
+3. ChatGPT가 질문만 만들게 합니다.
+4. 결과를 `outputs/03_followup_questions.md`로 저장합니다.
+
+---
+
+## 좋은 추가 질문의 기준
+
+```text
+이미 답한 내용을 반복하지 않는다.
+실제 장면을 묻는다.
+모순을 확인한다.
+공개 범위를 확인한다.
+최종 문서의 어느 장에 필요한지 표시한다.
+```
+
+---
+
+## 이 단계의 결과물
+
+```text
+outputs/03_followup_questions.md
+```
+
+---
+
+## 다음 행동
+
+추가 질문을 바탕으로 2차 인터뷰를 진행합니다.
+
+다음: [2차 인터뷰 진행하기](06_round2_interview.md)

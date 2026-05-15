@@ -1,0 +1,59 @@
+# 6단계. 2차 인터뷰 진행하기
+
+[← 이전](05_generate_followups.md) | [목차](../SUMMARY.md) | [다음 →](07_build_manual.md)
+
+## 이 페이지에서 지금 할 일
+
+추가 질문을 바탕으로 2차 인터뷰를 진행하고 `outputs/04_round2_summary.md`를 만듭니다.
+
+---
+
+## 왜 지금 이걸 하나요?
+
+2차 인터뷰는 깊이를 보강하는 단계입니다. 1차 인터뷰에서 생긴 빈칸, 모순, 공개 범위, 표현 수위를 정리합니다.
+
+---
+
+## 준비물
+
+```text
+outputs/01_answer_log.md
+outputs/02_round1_summary.md
+outputs/03_followup_questions.md
+```
+
+---
+
+## 진행 방법
+
+1. ChatGPT에 준비물을 첨부합니다.
+2. [prompts/05_round2_interview.md](../prompts/05_round2_interview.md)를 붙여넣습니다.
+3. 텍스트나 음성 중 편한 방식으로 답합니다.
+4. 끝나면 `outputs/04_round2_summary.md`로 정리하게 합니다.
+
+---
+
+## 이 단계에서 특히 확인할 것
+
+```text
+내가 말한 내용과 GPT 해석이 섞이지 않았는가?
+민감한 내용은 어디까지 공개 가능한가?
+너무 멋지게 표현되어 내 말이 아닌 문장이 있는가?
+최종 문서에 꼭 들어가야 할 실제 장면은 무엇인가?
+```
+
+---
+
+## 이 단계의 결과물
+
+```text
+outputs/04_round2_summary.md
+```
+
+---
+
+## 다음 행동
+
+모든 자료를 통합해 최종 사용 설명서를 만듭니다.
+
+다음: [최종 사용 설명서 만들기](07_build_manual.md)
