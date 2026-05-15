@@ -36,18 +36,20 @@ LLM에게 더 좋은 답변을 받기 위한 공개용 워크북입니다.
 
 ## 지금 당장 할 일
 
-처음이라면 [START_HERE.md](START_HERE.md)에서 15분 버전부터 시작하세요. 전체 흐름은 아래 순서로 이어지지만, 처음부터 모두 끝내야 하는 것은 아닙니다.
+처음이라면 [START_HERE.md](START_HERE.md)에서 아래 셋 중 하나를 고르면 됩니다.
 
-1. [START_HERE.md](START_HERE.md)를 연다.
-2. [workflow/00_linear_flow.md](workflow/00_linear_flow.md)에서 전체 순서를 확인한다.
-3. [workflow/01_setup_workspace.md](workflow/01_setup_workspace.md)에 따라 작업 공간을 만든다.
-4. [workflow/02_collect_context.md](workflow/02_collect_context.md)에서 선택 자료와 보안 범위를 정한다.
-5. [workflow/03_answer_100_questions.md](workflow/03_answer_100_questions.md)에서 100문 100답을 진행한다.
-6. [workflow/04_round1_interview.md](workflow/04_round1_interview.md)부터 순서대로 진행한다.
+```text
+Level 1. 15분 시작판
+- Q1~Q5만 답하고 미니 active_context를 만든다.
 
-여기만 헷갈리지 않으면 됩니다. 100문 100답은 최종 문서가 아닙니다.
+Level 2. 2시간 실사용판
+- 필수 30문과 1차 인터뷰로 active_context를 만든 뒤 테스트한다.
 
-나중에 인터뷰와 최종 프롬프트에서 사용할 **원재료**입니다.
+Level 3. 깊은 정식판
+- 100문 100답, 1차/2차 인터뷰, 파트별 초안, 병합/검수까지 진행한다.
+```
+
+전체 9단계는 [workflow/00_linear_flow.md](workflow/00_linear_flow.md)에 정리되어 있습니다. 처음부터 모두 끝낼 필요는 없습니다.
 
 ---
 

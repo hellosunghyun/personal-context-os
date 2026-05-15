@@ -8,12 +8,15 @@
 - README에 대상 독자, 과할 수 있는 사용자, OS 용어 정의를 추가.
 - START_HERE와 실행 흐름을 15분 시작판, 2시간 실사용판, 깊은 정식판으로 재구성.
 - 100문 100답에 먼저 답할 필수 30문 경로를 추가.
+- 15분/2시간 경로에서 full_manual 없이 바로 미니 active_context를 만들 수 있도록 `prompts/05a_build_minimal_active_context.md`를 추가.
 - 품질 테스트에 active_context before/after 비교와 1~5점 평가표를 추가.
+- before/after 테스트가 같은 채팅 맥락에 섞이지 않도록 새 채팅 2개 비교 방식으로 수정.
 - 보안 문서에 민감 자료를 실수로 올렸을 때의 삭제/대체/검수 루틴을 추가.
-- source_register에 원문 업로드 여부, 요약본 대체 여부, 삭제 완료일, 최종 문서 반영 여부를 추가.
+- source_register 기본 표를 줄이고, 원문 업로드 여부와 삭제/대체/반영 여부는 보안 추적 메모로 분리.
 - 팀 공유 문서에 자발성, 회수 가능성, 인사평가 활용 금지 원칙을 추가.
 - active_context, team_share, bad/good, source_register 예시 파일을 추가.
 - 파트별 06A~06F 프롬프트를 추가하고 병합/검수/버전 분리 프롬프트를 보강.
+- 리뷰용 단일 병합 파일 `md.md`는 커밋되지 않도록 `.gitignore`에 추가.
 
 ## v1.0.2
 

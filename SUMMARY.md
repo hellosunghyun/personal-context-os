@@ -60,6 +60,7 @@
 - [03. 1차 인터뷰](prompts/03_round1_interview.md)
 - [04. 추가 질문 생성](prompts/04_generate_followups.md)
 - [05. 2차 인터뷰](prompts/05_round2_interview.md)
+- [05A. 미니 Active Context 만들기](prompts/05a_build_minimal_active_context.md)
 - [06. 파트별 최종 문서 초안 생성](prompts/06_final_manual_deep.md)
 - [06A. 정체성/가치/판단 초안](prompts/06a_build_identity_values.md)
 - [06B. 일/소통/에너지/관계 초안](prompts/06b_build_work_communication.md)

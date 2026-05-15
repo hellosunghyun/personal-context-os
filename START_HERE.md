@@ -37,8 +37,8 @@
 2. [templates/answer_log.md](templates/answer_log.md)를 복사해 `outputs/01_answer_log.md`로 저장한다.
 3. [questions/00_how_to_use_questions.md](questions/00_how_to_use_questions.md)를 읽는다.
 4. [questions/01_identity.md](questions/01_identity.md)의 1번부터 5번까지만 답한다.
-5. 답변을 ChatGPT에 붙여넣고 추가 질문 10개를 받는다.
-6. 마음에 드는 답변이 있으면 `outputs/06_active_context.md`의 첫 초안으로 줄인다.
+5. 답변을 ChatGPT에 붙여넣고 추가 질문 10개를 받은 뒤, 지금 답할 수 있는 것만 짧게 답한다.
+6. [prompts/05a_build_minimal_active_context.md](prompts/05a_build_minimal_active_context.md)로 `outputs/06_active_context.md`의 첫 초안을 만든다.
 
 ```text
 아래는 제 사용 설명서를 만들기 위한 초기 답변이다.
@@ -46,6 +46,8 @@
 이 답변을 바탕으로 추가로 물어볼 질문 10개를 만들어줘.
 제 답변을 추정해서 채우지 말고, 질문만 만들어줘.
 ```
+
+당장 답하기 어려운 질문은 억지로 채우지 말고, 다음 단계에서 `추가 확인 필요`로 남깁니다.
 
 이렇게 하면 최소한 시작할 수 있습니다.
 
@@ -59,7 +61,7 @@
 2. [workflow/02_collect_context.md](workflow/02_collect_context.md) 선택 자료 모으기
 3. [questions/00_how_to_use_questions.md](questions/00_how_to_use_questions.md)의 필수 30문만 답하기
 4. [workflow/04_round1_interview.md](workflow/04_round1_interview.md) 1차 인터뷰 진행하기
-5. `outputs/06_active_context.md`와 `outputs/answer_taste_log.md` 먼저 만들기
+5. [prompts/05a_build_minimal_active_context.md](prompts/05a_build_minimal_active_context.md)로 `outputs/06_active_context.md`와 `outputs/answer_taste_log.md` 먼저 만들기
 6. [tests/manual_quality_test.md](tests/manual_quality_test.md)의 before/after 테스트 1~2개만 실행하기
 
 여기까지 해도 일상적인 LLM 대화에는 충분히 쓸 수 있습니다.
