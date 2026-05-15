@@ -29,10 +29,10 @@ outputs/08_public_profile.md
 아래 질문에 모두 `예`라고 답할 수 있으면 여기서 멈춰도 됩니다.
 
 ```text
-1. full_manual.md가 내가 실제로 말한 내용에 근거하고 있는가?
+1. full_manual.md가 제가 실제로 말한 내용에 근거하고 있는가?
 2. active_context.md가 1~3페이지 안에서 자주 붙여넣기 좋은가?
 3. team_share_one_pager.md에 민감한 심리/건강/가족/회사 정보가 빠져 있는가?
-4. 내 말 같지 않은 표현이나 과한 브랜딩 문장을 지웠는가?
+4. 제 말 같지 않은 표현이나 과한 브랜딩 문장을 지웠는가?
 5. 확실하지 않은 내용이 추가 확인 필요로 남아 있는가?
 6. 근거가 약한 해석이나 평가 불가 항목이 숨겨지지 않았는가?
 ```
@@ -52,7 +52,7 @@ outputs/08_public_profile.md
 문제를 새 기능으로 확장하지 말고, 먼저 아래 순서로 되돌아갑니다.
 
 ```text
-표현이 내 말 같지 않다 → prompts/07_authorship_review.md
+표현이 제 말 같지 않다 → prompts/07_authorship_review.md
 팀원용/공개용에 민감한 내용이 섞였다 → prompts/08_split_versions.md
 active_context가 너무 길거나 흐릿하다 → prompts/06_merge_manual_outputs.md
 근거 없는 해석이 많다 → workflow/06_round2_interview.md
@@ -66,7 +66,7 @@ active_context가 너무 길거나 흐릿하다 → prompts/06_merge_manual_outp
 
 1. `outputs/06_active_context.md`를 ChatGPT에 첨부합니다.
 2. [tests/manual_quality_test.md](tests/manual_quality_test.md)의 질문 중 1~2개만 실행합니다.
-3. 답변이 내 말 같지 않으면 위의 `통과하지 않으면` 기준으로 되돌아갑니다.
+3. 답변이 제 말 같지 않으면 위의 `통과하지 않으면` 기준으로 되돌아갑니다.
 
 테스트는 필수 단계가 아니라 품질 확인용입니다. 정확한 평가는 어렵다면, 바로 쓸 수 있었던 답변과 다시 고쳐야 했던 답변만 `answer_taste_log.md`에 남겨도 충분합니다.
 

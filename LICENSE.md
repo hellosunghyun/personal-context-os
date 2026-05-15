@@ -1,21 +1,39 @@
-# MIT License
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
 Copyright (c) 2026 Sunghyun Kim
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+SPDX-License-Identifier: CC-BY-NC-SA-4.0
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Unless otherwise noted, this repository and its contents are licensed under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Full license text:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## You may
+
+- Copy and share this material for non-commercial purposes.
+- Adapt, remix, translate, or teach with this material for non-commercial purposes.
+- Use this material in personal study groups, peer learning, non-commercial classrooms, and free workshops.
+
+## You must
+
+- Give appropriate credit to Sunghyun Kim.
+- Link to the license.
+- Indicate if you made changes.
+- Share adapted versions under the same license.
+
+## You may not
+
+- Sell this workbook or substantially identical copies.
+- Repackage the full material as a paid product.
+- Use the full material as part of a paid course, paid consulting package, paid community, or commercial service without separate permission.
+
+Commercial use requires separate written permission from the author.
+
+## No warranty
+
+This material is provided as-is, without warranties or guarantees of any kind.

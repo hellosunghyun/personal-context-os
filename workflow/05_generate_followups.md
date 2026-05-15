@@ -2,13 +2,13 @@
 
 [← 이전](04_round1_interview.md) | [목차](../SUMMARY.md) | [다음 →](06_round2_interview.md)
 
-## 이 페이지에서 지금 할 일
+## 지금 할 일
 
 100문 100답과 1차 인터뷰를 바탕으로, 최종 사용 설명서를 만들기 전에 꼭 더 확인해야 할 질문을 생성합니다.
 
 ---
 
-## 왜 지금 이걸 하나요?
+## 왜 이 단계가 있나요?
 
 이 단계는 선택사항이 아닙니다.
 
@@ -47,7 +47,7 @@ outputs/source_register.md
 
 ---
 
-## 이 단계의 결과물
+## 이 단계가 끝나면
 
 ```text
 outputs/03_followup_questions.md
@@ -55,7 +55,7 @@ outputs/03_followup_questions.md
 
 ---
 
-## 다음 행동
+## 다음으로
 
 추가 질문을 바탕으로 2차 인터뷰를 진행합니다.
 

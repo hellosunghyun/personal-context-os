@@ -2,15 +2,15 @@
 
 [← 이전](04_generate_followups.md) | [목차](../SUMMARY.md) | [다음 →](06_final_manual_deep.md)
 
-## 언제 쓰나요?
+## 언제 쓰면 좋나요?
 
 추가 질문이 만들어진 뒤, 최종 문서의 빈칸을 메우기 위해 사용합니다.
 
-## 필요한 입력
+## 넣을 자료
 
 `01_answer_log.md`, `02_round1_summary.md`, `03_followup_questions.md`.
 
-## 기대 결과
+## 나와야 할 결과
 
 `04_round2_summary.md`에 들어갈 최종 보강 요약이 나옵니다.
 

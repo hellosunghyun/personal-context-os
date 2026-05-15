@@ -39,7 +39,7 @@
 ## 3. 100문 100답
 
 - [질문 사용법](questions/00_how_to_use_questions.md)
-- [01. 현재의 나](questions/01_identity.md)
+- [01. 현재 모습](questions/01_identity.md)
 - [02. 살아온 과정](questions/02_life_story.md)
 - [03. 가치관과 기준](questions/03_values.md)
 - [04. 직관과 판단](questions/04_intuition_decision.md)

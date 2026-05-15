@@ -2,7 +2,7 @@
 
 [← 이전](source_register.md) | [목차](../SUMMARY.md) | [다음 →](interview_summary.md)
 
-100문 100답을 기록하는 파일입니다.
+100문 100답 기록지입니다.
 
 ---
 
