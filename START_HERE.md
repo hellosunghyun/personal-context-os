@@ -70,7 +70,7 @@
 
 ## Level 3. 깊은 정식판
 
-full_manual, 팀원용 문서, 공개용 문서까지 만들고 싶다면 아래 순서로 진행합니다.
+전체 사용 설명서, 팀원용 문서, 공개용 문서까지 만들고 싶다면 아래 순서로 진행합니다.
 
 1. [작업 공간 만들기](workflow/01_setup_workspace.md)
 2. [선택 자료 모으기](workflow/02_collect_context.md)

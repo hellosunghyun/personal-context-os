@@ -1,7 +1,8 @@
 # 목차
 
-이 레포는 가능한 한 일직선으로 따라가도록 설계되어 있습니다.  
-먼저 **필수 흐름**을 진행하고, 필요할 때만 문서와 부록을 참고하세요.
+이 레포는 가능한 한 일직선으로 따라가도록 설계되어 있습니다.
+
+처음 실행할 때는 **1. 첫 생성 흐름**만 따라가면 됩니다. 아래의 질문 묶음, 프롬프트, 템플릿, 예시는 진행 중 필요할 때 연결되는 참고 문서입니다.
 
 ---
 
@@ -17,7 +18,7 @@
 
 1. [작업 공간 만들기](workflow/01_setup_workspace.md)
 2. [선택 자료 모으기](workflow/02_collect_context.md)
-3. [100문 100답 진행하기](workflow/03_answer_100_questions.md)
+3. [100문 100답 진행하기](workflow/03_answer_100_questions.md) - 실제 작성은 [100문 100답 기록지](templates/answer_log.md)에서 합니다.
 4. [1차 인터뷰 진행하기](workflow/04_round1_interview.md)
 5. [추가 질문 생성하기](workflow/05_generate_followups.md)
 6. [2차 인터뷰 진행하기](workflow/06_round2_interview.md)
@@ -27,7 +28,7 @@
 
 ---
 
-## 2. 완성 후 운영과 확장
+## 2. 완성 후에만 보는 문서
 
 - [업데이트 시스템 운영하기](workflow/09_update_system.md)
 - [팀원과 공유하기](docs/08_team_sharing.md)
@@ -36,7 +37,7 @@
 
 ---
 
-## 3. 100문 100답
+## 3. 질문 원문과 예시
 
 - [질문 사용법](questions/00_how_to_use_questions.md)
 - [01. 현재 모습](questions/01_identity.md)
@@ -52,7 +53,7 @@
 
 ---
 
-## 4. 바로 복사해서 쓰는 프롬프트
+## 4. 진행 중 붙여넣는 프롬프트
 
 - [00. 프로젝트 기본 맥락](prompts/00_project_context.md)
 - [01. 자료 분류](prompts/01_material_intake.md)
@@ -75,7 +76,7 @@
 
 ---
 
-## 5. 템플릿
+## 5. 기록지와 템플릿
 
 - [자료 목록](templates/source_register.md)
 - [100문 100답 기록지](templates/answer_log.md)
