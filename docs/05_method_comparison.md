@@ -26,6 +26,8 @@ Persona Prompting은 보통 이렇게 시작합니다.
 
 이 방식은 모델의 답변 스타일을 빠르게 조정하는 데 유용합니다. 하지만 사용자의 실제 맥락을 충분히 제공하지는 않습니다.
 
+출처 메모: Persona Prompting은 LLM에게 역할이나 사용자 페르소나를 부여하는 접근과 연결됩니다. 이 문서에서는 persona 연구 전체를 설명하지 않고, [persona/role prompting 관련 참고문헌](../references.md#llm-개인화-프롬프팅-rag)을 배경으로만 둡니다.
+
 이 가이드는 반대로 시작합니다.
 
 ```text
@@ -50,6 +52,8 @@ Custom Instructions는 짧은 선호를 저장하는 데 좋습니다.
 
 이 가이드는 Custom Instructions에 넣을 핵심 문장을 만들기 위한 원본 시스템에 가깝습니다.
 
+출처 메모: Custom Instructions의 적용 범위와 제한은 [OpenAI Custom Instructions 문서](../references.md#openai-공식-문서)를 기준으로 확인하세요.
+
 ---
 
 ## Context Engineering과의 관계
@@ -64,6 +68,8 @@ full_manual과 active_context를 나눈다.
 지금 필요한 맥락만 첨부한다.
 좋았던 답변과 싫었던 답변을 업데이트한다.
 ```
+
+출처 메모: 컨텍스트를 유한한 자원으로 보고 선별, 압축, 갱신해야 한다는 관점은 [Anthropic의 context engineering 문서](../references.md#anthropic-엔지니어링-문서)를 참고했습니다.
 
 ---
 
@@ -84,6 +90,8 @@ RAG는 보통 문서 검색과 지식 기반 질의응답에 가깝습니다.
 
 즉, 지식 검색보다 **사용자 맥락 정렬**에 가깝습니다.
 
+출처 메모: RAG의 원전 계열과 검색 기반 맥락 제공의 배경은 [RAG 참고문헌](../references.md#llm-개인화-프롬프팅-rag)에 정리했습니다.
+
 ---
 
 ## GPTs와의 차이
@@ -94,6 +102,8 @@ GPTs는 특정 목적의 맞춤형 ChatGPT를 만드는 기능입니다. 이 가
 이 가이드 = 개인 맥락을 만드는 워크북
 GPTs = 그 맥락을 반복적으로 쓰는 인터페이스
 ```
+
+출처 메모: GPTs의 구성 요소와 공유 범위는 [OpenAI GPTs 문서](../references.md#openai-공식-문서)를 확인하세요.
 
 ---
 
@@ -108,6 +118,8 @@ GPTs = 그 맥락을 반복적으로 쓰는 인터페이스
 그다음 필요하면 GPTs나 챗봇으로 확장한다.
 자동화보다 저자성, 검수, 보안을 먼저 둔다.
 ```
+
+출처 메모: Agent Skills, 긴 작업 하니스, 에이전트 평가 루프는 [Anthropic 엔지니어링 문서](../references.md#anthropic-엔지니어링-문서)를 참고했습니다. 이 가이드는 그보다 작게 시작하는 수동 워크북입니다.
 
 ---
 

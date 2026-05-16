@@ -78,6 +78,8 @@ Active Context
 - 자주 업데이트
 ```
 
+출처 메모: 컨텍스트를 많이 넣는 것보다 필요한 맥락을 선별하고 압축하는 관점은 [Anthropic context engineering 문서](../references.md#anthropic-엔지니어링-문서)를 배경으로 삼았습니다. 이 가이드의 Active Context는 그 관점을 개인 문서 운영에 맞춰 바꾼 것입니다.
+
 ---
 
 ## 다음으로
