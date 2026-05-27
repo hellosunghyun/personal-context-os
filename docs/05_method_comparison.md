@@ -4,7 +4,7 @@
 
 ## 여기서 볼 것
 
-이 가이드가 persona prompting, custom instructions, context engineering, RAG, GPTs, 개인 에이전트 흐름과 어떻게 다른지 설명합니다.
+이 가이드가 persona prompting, Custom Instructions, Memory, Projects, context engineering, RAG, MCP, GPTs, 개인 에이전트 흐름과 어떻게 다른지 설명합니다.
 
 ---
 

@@ -11,6 +11,7 @@
 - Prompt Engineering, Custom Instructions, Memory, Projects, GPTs, RAG, Agent와의 차이를 비교표로 보강.
 - AI 과의존, workslop, 저자성 상실 위험을 limitations 문서에 추가.
 - 최신 AI 개인화, context engineering, HCI/인지 리스크 관련 참고자료를 references.md에 보강.
+- START_HERE에서 "왜 지금 필요한가" 문서로 이어지는 선택 링크를 추가하고 반복 설명을 줄임.
 
 ## v1.0.3
 

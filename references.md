@@ -8,10 +8,10 @@
 
 ## 최신 AI 개인화와 컨텍스트 관리
 
-- OpenAI. [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt). Project가 파일, 채팅, 지침, 메모리를 묶어 장기 작업의 맥락을 유지하는 방식을 확인할 때 참고.
-- OpenAI. [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq). Saved Memories, Reference Chat History, Memory Sources, 삭제/관리 기준을 확인할 때 참고.
-- OpenAI. [GPTs in ChatGPT](https://help.openai.com/en/articles/8554407-gpts-in-chatgpt). Instructions, Knowledge, Capabilities, Actions 등 맞춤형 GPT 구성 요소를 확인할 때 참고.
-- Anthropic. [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents). 프롬프트 엔지니어링에서 컨텍스트 엔지니어링으로 이동하는 흐름과 context를 유한한 자원으로 보는 관점 참고.
+이 섹션은 개인화와 맥락 관리 관점에서 먼저 볼 자료를 묶은 길잡이입니다. 제품별 원문 링크는 아래 공식 문서 섹션에 둡니다.
+
+- OpenAI Projects, Memory FAQ, GPTs: 파일, 채팅, 지침, 저장된 기억, 맞춤형 GPT 구성 요소를 확인할 때 참고. 원문 링크는 [OpenAI 공식 문서](#openai-공식-문서)의 해당 항목을 봅니다.
+- Anthropic Effective context engineering for AI agents: 프롬프트 엔지니어링에서 컨텍스트 엔지니어링으로 이동하는 흐름과 context를 유한한 자원으로 보는 관점 참고. 원문 링크는 [Anthropic 엔지니어링 문서](#anthropic-엔지니어링-문서)의 해당 항목을 봅니다.
 
 ## AI 과의존, 저자성, 인지 리스크
 
