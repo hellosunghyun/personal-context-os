@@ -2,7 +2,7 @@
 
 [← 이전](05_method_comparison.md) | [목차](../SUMMARY.md) | [다음 →](07_limitations.md)
 
-## 여기서 볼 것
+## 이 문서에서 다루는 내용
 
 완성된 사용 설명서와 Active Context를 어떤 상황에 쓸 수 있는지 봅니다.
 
