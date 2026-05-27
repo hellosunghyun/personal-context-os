@@ -90,6 +90,7 @@
 
 ## 6. 개념과 주의사항
 
+- [왜 지금 필요한가](docs/00_why_now.md)
 - [이 가이드는 무엇인가](docs/00_what_is_this.md)
 - [왜 맥락이 중요한가](docs/01_why_context_matters.md)
 - [도구와 진행 방식](docs/02_tools_and_modes.md)

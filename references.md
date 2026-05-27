@@ -4,7 +4,22 @@
 
 이 문서는 본문 흐름에 모두 넣기에는 넓은 배경 자료를 모아둔 참고문헌입니다. 제품 기능, 모델, 요금제, 파일 업로드, 메모리, GPTs 관련 세부 정책은 자주 바뀔 수 있으므로 항상 공식 문서를 우선 확인하세요.
 
-확인일: 2026-05-16
+확인일: 2026-05-27
+
+## 최신 AI 개인화와 컨텍스트 관리
+
+- OpenAI. [Projects in ChatGPT](https://help.openai.com/en/articles/10169521-using-projects-in-chatgpt). Project가 파일, 채팅, 지침, 메모리를 묶어 장기 작업의 맥락을 유지하는 방식을 확인할 때 참고.
+- OpenAI. [Memory FAQ](https://help.openai.com/en/articles/8590148-memory-faq). Saved Memories, Reference Chat History, Memory Sources, 삭제/관리 기준을 확인할 때 참고.
+- OpenAI. [GPTs in ChatGPT](https://help.openai.com/en/articles/8554407-gpts-in-chatgpt). Instructions, Knowledge, Capabilities, Actions 등 맞춤형 GPT 구성 요소를 확인할 때 참고.
+- Anthropic. [Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents). 프롬프트 엔지니어링에서 컨텍스트 엔지니어링으로 이동하는 흐름과 context를 유한한 자원으로 보는 관점 참고.
+
+## AI 과의존, 저자성, 인지 리스크
+
+- Tankelevitch, L., et al. (2025). [Understanding, Protecting, and Augmenting Human Cognition with Generative AI](https://arxiv.org/abs/2508.21036). 생성형 AI가 메타인지, 비판적 사고, 기억, 창의성에 미치는 영향을 다룬 CHI 2025 Tools for Thought 워크숍 종합.
+- Sarkar, A., et al. (2024). [When Copilot Becomes Autopilot](https://arxiv.org/abs/2412.15030). 생성형 AI가 지식노동에서 비판적 사고를 약화시킬 수 있다는 문제와 "AI as critic" 설계 방향 참고.
+- Choudhuri, R., et al. (2026). [Thinking Less, Trusting More](https://arxiv.org/abs/2601.22430). 생성형 AI에 대한 신뢰와 반복 사용이 인지적 참여와 어떤 관계가 있는지 참고.
+- Harvard Business Review / Stanford / BetterUp. [AI-Generated "Workslop" Is Destroying Productivity](https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity). AI 산출물이 겉으로는 매끈하지만 실질이 부족해 동료의 시간을 낭비하는 현상 참고.
+- Axios. [AI "workslop" sabotages productivity, study finds](https://www.axios.com/2025/09/24/ai-workslop-workplace-efficiency-study). workslop 용어와 관련 조사 수치를 빠르게 확인할 때 참고.
 
 ## OpenAI 공식 문서
 

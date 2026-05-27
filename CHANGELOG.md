@@ -2,6 +2,16 @@
 
 [목차](SUMMARY.md)
 
+## v1.0.4
+
+- "왜 지금 이 가이드가 필요한가" 문서를 추가.
+- README와 START_HERE에 최신 AI 개인화 기능이 발전해도 수동 맥락 정리가 필요한 이유를 보강.
+- "프롬프트 팁"이 아니라 "AI와 대화하기 위한 개인 맥락 운영법"이라는 포지셔닝을 강화.
+- 사람 간 대화가 상대에 맞춰 조정된다는 관점을 docs/01_why_context_matters.md에 추가.
+- Prompt Engineering, Custom Instructions, Memory, Projects, GPTs, RAG, Agent와의 차이를 비교표로 보강.
+- AI 과의존, workslop, 저자성 상실 위험을 limitations 문서에 추가.
+- 최신 AI 개인화, context engineering, HCI/인지 리스크 관련 참고자료를 references.md에 보강.
+
 ## v1.0.3
 
 - 공개 리뷰 기반 개선 체크리스트를 추가.
